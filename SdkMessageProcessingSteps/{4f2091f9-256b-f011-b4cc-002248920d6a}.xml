@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="DoC.PaymentProcess.Application.Plugins.CreateShortCode: Update of doc_payment" SdkMessageProcessingStepId="{4f2091f9-256b-f011-b4cc-002248920d6a}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>20bebb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>DoC.PaymentProcess.Application.Plugins.CreateShortCode, DoC.PaymentProcess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2ba002a6f72b77bf</PluginTypeName>
+  <PluginTypeId>83a7d044-e3eb-4be0-8db5-fc94875c14d5</PluginTypeId>
+  <PrimaryEntity>doc_payment</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>DoC.PaymentProcess.Application.Plugins.CreateShortCode: Update of doc_payment</Description>
+  <FilteringAttributes>doc_shortcode</FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>20</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

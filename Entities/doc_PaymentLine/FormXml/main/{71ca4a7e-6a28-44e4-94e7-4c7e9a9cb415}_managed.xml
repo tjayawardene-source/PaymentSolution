@@ -35,6 +35,46 @@
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{858da42d-03a6-42da-8c18-4f47ca1cf015}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="doc_quantity" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="doc_quantity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02e70eea-7e4a-4140-8841-848496ab8208}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="doc_price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="doc_price" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ce22564-43a7-4014-afb0-4b00756d470b}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="doc_principalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="doc_principalamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{daa032ec-de76-4fd1-a761-919e6d394e66}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="doc_salesapp" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="doc_salesapp" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{28b6b451-9576-4673-8eff-5c3308d13bdd}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -42,6 +82,51 @@
           </columns>
         </tab>
       </tabs>
+      <header id="{75103e47-85d8-4558-9315-0638a412d08d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{913a84a8-6105-41e9-8d9d-549f6943017c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{27b463f0-a68a-4212-b21a-d39f32c89fa2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9cddf40e-5661-4afd-a5b9-aa572c842687}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{edd4ce58-6fcc-4f15-bacc-8e6c1f398450}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{bef629d2-5d39-42d2-88f6-575c020a2ad6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7d1023ca-f16a-4ce6-b6cf-6e4f1e8c12ba}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3607ed77-6472-42dd-b6cb-56813ceac6db}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

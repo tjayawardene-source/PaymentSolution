@@ -60,7 +60,23 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{941fc1bc-d970-4549-9ca6-bbee0603d68b}" labelid="{8f7f54b2-8ad6-4ecd-a0c7-22adbab82075}">
+                      <cell id="{7b25914c-b55e-41f9-8064-412bceb55805}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="doc_shortcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="doc_shortcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{57f82e76-f8e6-4ea7-b7ac-76428b1c7e25}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="doc_paymentconfig" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="doc_paymentconfig" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{941fc1bc-d970-4549-9ca6-bbee0603d68b}" labelid="{8f7f54b2-8ad6-4ecd-a0c7-22adbab82075}" visible="false">
                         <labels>
                           <label description="Owner" languagecode="1033" />
                         </labels>
@@ -116,7 +132,7 @@
           </row>
         </rows>
       </footer>
-      <DisplayConditions Order="1" FallbackForm="true">
+      <DisplayConditions Order="3" FallbackForm="true">
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>

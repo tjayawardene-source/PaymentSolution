@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3373bf96-d5c3-468f-b42e-6d599954dace}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{70032342-af4e-45dd-b0a8-438498e4ea0d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{5c327208-463f-49e7-81ac-aba80208cc17}" columns="11" name="secGeneral">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c8d7c060-a94c-4229-9e52-52c0e799de7d}" colspan="2">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="doc_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="doc_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c2c26dd-f1f2-4e74-836e-ae39d4cc1f45}" colspan="2" visible="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="secShortCode" id="b29c6e04-2ac4-40f9-91a4-36768d90781e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="111" labelwidth="115">
+                  <labels>
+                    <label description="Short Code" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{05d44f07-6932-44b0-bbc4-cbbe3867b38c}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{56058e64-96c6-465d-b41c-c5a4d87a3da4}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{65028047-f996-46b8-8f26-79250c8bbf98}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51ce8197-590e-411a-b404-11c005b827af}" locklevel="0" colspan="3" rowspan="5" showlabel="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="doc_memorablewords" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="doc_memorablewords" disabled="false" uniqueid="{26ba7a61-2164-999c-4067-5e0789d6c8d9}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{9fe74462-55a0-4250-bdda-471e7f1f4f2a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Total Length" languagecode="1033" />
+                        </labels>
+                        <control id="doc_shortcodetotallength" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="doc_shortcodetotallength" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{1fabc074-0784-42a9-a1e2-a2df4b2fe9cd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{a057d3e8-6e40-4963-a951-733e6487acad}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6cfcb517-624d-4875-96ad-d862b322e1ca}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Hash Suffix Length" languagecode="1033" />
+                        </labels>
+                        <control id="doc_shortcodehashsuffixlength" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="doc_shortcodehashsuffixlength" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{043830bc-e7c9-4762-8f0b-338c776f9dfe}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{71fbbaa0-473f-463a-9562-8df1837c7f48}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6a0170b6-a1ee-5016-cbb8-91e1761ce921}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Max Shortcode Generation Attempts" languagecode="1033" />
+                        </labels>
+                        <control id="doc_maxuniqueshortcoderetries" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="doc_maxuniqueshortcoderetries" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{799e6ed3-86fe-4822-b33a-7cd8ec540f84}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell locklevel="0" id="{b9043219-453c-47e0-93bc-13a420be3fa3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2f3f7893-3bfc-4541-9242-0ead7c0abe91}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{476733fe-d409-4cd3-88ea-fcb4d7abe17b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{99c76004-8ed2-4f0d-af50-40a19af6fd83}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{087aa0f3-f510-4410-a8bc-993cac1a62e7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{52f6214f-cd92-4330-beb9-76ab05ab4984}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9b2ddc13-2265-4e9b-88d4-80816fa996a7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4f226df6-f1fe-488f-983e-0c4cedfa946d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cbda8d56-c255-4517-90d0-fe9c18c1f7e2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

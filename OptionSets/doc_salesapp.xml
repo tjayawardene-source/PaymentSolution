@@ -70,7 +70,7 @@
     </option>
     <option value="778640007" IsHidden="0">
       <labels>
-        <label description="Fising-Test" languagecode="1033" />
+        <label description="Fishing-Test" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />
@@ -79,6 +79,78 @@
     <option value="778640008" IsHidden="0">
       <labels>
         <label description="Fishing-UAT" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="778640009" IsHidden="0">
+      <labels>
+        <label description="Drones-Dev" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="778640010" IsHidden="0">
+      <labels>
+        <label description="Drones-Golden" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="778640011" IsHidden="0">
+      <labels>
+        <label description="Drones-Test" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="778640012" IsHidden="0">
+      <labels>
+        <label description="Drones-UAT" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="778640013" IsHidden="0">
+      <labels>
+        <label description="Drones" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="778640014" IsHidden="0">
+      <labels>
+        <label description="Hunting-Dev" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="778640015" IsHidden="0">
+      <labels>
+        <label description="Hunting-Golden" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="778640016" IsHidden="0">
+      <labels>
+        <label description="Hunting-Test" languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description description="" languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option value="778640017" IsHidden="0">
+      <labels>
+        <label description="Hunting-UAT" languagecode="1033" />
       </labels>
       <Descriptions>
         <Description description="" languagecode="1033" />

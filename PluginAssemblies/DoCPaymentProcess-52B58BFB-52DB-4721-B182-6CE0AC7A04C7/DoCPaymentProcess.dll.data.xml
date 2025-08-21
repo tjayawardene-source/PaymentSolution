@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="DoC.PaymentProcess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2ba002a6f72b77bf" PluginAssemblyId="52b58bfb-52db-4721-b182-6ce0ac7a04c7" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.1.0.9</IntroducedVersion>
+  <FileName>/PluginAssemblies/DoCPaymentProcess-52B58BFB-52DB-4721-B182-6CE0AC7A04C7/DoCPaymentProcess.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="DoC.PaymentProcess.Application.Plugins.CreateShortCode, DoC.PaymentProcess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2ba002a6f72b77bf" PluginTypeId="83a7d044-e3eb-4be0-8db5-fc94875c14d5" Name="DoC.PaymentProcess.Application.Plugins.CreateShortCode">
+      <FriendlyName>7b0bc110-087f-47bd-8ee2-0f6b87010fb3</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>
