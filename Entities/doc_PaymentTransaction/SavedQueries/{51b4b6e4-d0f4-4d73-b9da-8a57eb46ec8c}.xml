@@ -10,7 +10,13 @@
     <layoutxml>
       <grid name="resultset" jump="doc_paymenttransaction" select="1" icon="1" preview="1">
         <row name="result" id="doc_paymenttransactionid">
-          <cell name="doc_paymenttransaction" width="300" />
+          <cell name="doc_paymentreferencenumber" width="199" />
+          <cell name="doc_customerreferencenumber" width="144" />
+          <cell name="doc_principalamount" width="140" />
+          <cell name="doc_receiptnumber" width="133" />
+          <cell name="doc_transactionstatus" width="144" />
+          <cell name="doc_creditcard" width="106" />
+          <cell name="doc_metadata" width="100" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -20,12 +26,17 @@
       <fetch version="1.0" mapping="logical">
         <entity name="doc_paymenttransaction">
           <attribute name="doc_paymenttransactionid" />
-          <attribute name="doc_paymenttransaction" />
           <attribute name="createdon" />
-          <order attribute="doc_paymenttransaction" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
+          <attribute name="doc_customerreferencenumber" />
+          <attribute name="doc_creditcard" />
+          <attribute name="doc_metadata" />
+          <attribute name="doc_receiptnumber" />
+          <attribute name="doc_principalamount" />
+          <attribute name="doc_paymentreferencenumber" />
+          <attribute name="doc_transactionstatus" />
         </entity>
       </fetch>
     </fetchxml>

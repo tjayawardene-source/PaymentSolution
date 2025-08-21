@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.25062.146" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25062.146" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25062.00146">
+<ImportExportXml version="9.2.25081.176" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25081.176" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25082.00136">
   <SolutionManifest>
     <UniqueName>BaseSolutionOnlinePayments</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="The base solution with table structure and core components needed for adding online payments using the DOC QuickStream Payment Gateway." languagecode="1033" />
     </Descriptions>
-    <Version>1.0.0.21</Version>
+    <Version>1.0.0.35</Version>
     <Managed>1</Managed>
     <Publisher>
       <UniqueName>DOC</UniqueName>
@@ -81,15 +81,55 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="doc_payment" behavior="0" />
+      <RootComponent type="1" schemaName="doc_paymentconfig" behavior="0" />
       <RootComponent type="1" schemaName="doc_paymentline" behavior="0" />
       <RootComponent type="1" schemaName="doc_paymenttransaction" behavior="0" />
       <RootComponent type="1" schemaName="doc_productmapping" behavior="0" />
       <RootComponent type="1" schemaName="doc_productmappingsetting" behavior="0" />
       <RootComponent type="1" schemaName="doc_refund" behavior="0" />
+      <RootComponent type="61" schemaName="doc_paymenticon" behavior="0" />
+      <RootComponent type="61" schemaName="doc_paymentlinesicon" behavior="0" />
+      <RootComponent type="61" schemaName="doc_paymentransactionicon" behavior="0" />
+      <RootComponent type="61" schemaName="doc_productmappingicon" behavior="0" />
+      <RootComponent type="61" schemaName="doc_refundicon" behavior="0" />
+      <RootComponent type="61" schemaName="doc_setting" behavior="0" />
+      <RootComponent type="62" schemaName="doc_OnlinePaymentsApp" behavior="0" />
+      <RootComponent type="62" schemaName="doc_PaymentManager" behavior="0" />
+      <RootComponent type="80" schemaName="doc_OnlinePaymentsApp" behavior="0" />
+      <RootComponent type="80" schemaName="doc_PaymentManager" behavior="0" />
       <RootComponent type="9" schemaName="doc_docpaymentstatus" behavior="0" />
+      <RootComponent type="9" schemaName="doc_durationunit" behavior="0" />
       <RootComponent type="9" schemaName="doc_salesapp" behavior="0" />
       <RootComponent type="9" schemaName="doc_salesorderitemtype" behavior="0" />
+      <RootComponent type="91" id="{52b58bfb-52db-4721-b182-6ce0ac7a04c7}" schemaName="DoC.PaymentProcess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2ba002a6f72b77bf" behavior="0" />
+      <RootComponent type="92" id="{3e16454b-0a61-f011-bec2-00224895e1c9}" behavior="0" />
+      <RootComponent type="92" id="{4f2091f9-256b-f011-b4cc-002248920d6a}" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="doc_OnlinePaymentsApp" displayName="Online Payments App" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="doc_PaymentManager" displayName="Payment Manager" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.21">PowerAppsAppFramework_Anchor (1.0.0.21)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=doc_OnlinePaymentsApp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="doc_OnlinePaymentsApp" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.15)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.21">PowerAppsAppFramework_Anchor (1.0.0.21)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=doc_PaymentManager,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="doc_PaymentManager" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

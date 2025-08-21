@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <EntityRelationship Name="business_unit_doc_payment" />
+  <EntityRelationship Name="business_unit_doc_paymentconfig" />
   <EntityRelationship Name="business_unit_doc_paymentline" />
   <EntityRelationship Name="business_unit_doc_paymenttransaction" />
   <EntityRelationship Name="business_unit_doc_productmapping" />
   <EntityRelationship Name="business_unit_doc_productmappingsetting" />
   <EntityRelationship Name="business_unit_doc_refund" />
+  <EntityRelationship Name="doc_payment_PaymentConfig_doc_paymentconfig" />
   <EntityRelationship Name="doc_paymentline_PaymentID_doc_payment" />
   <EntityRelationship Name="doc_paymenttransaction_Payment_doc_payment" />
   <EntityRelationship Name="doc_refund_parentPaymentId_doc_payment" />
@@ -14,6 +16,8 @@
   <EntityRelationship Name="doc_refund_paymentLineId_doc_paymentline" />
   <EntityRelationship Name="lk_doc_payment_createdby" />
   <EntityRelationship Name="lk_doc_payment_modifiedby" />
+  <EntityRelationship Name="lk_doc_paymentconfig_createdby" />
+  <EntityRelationship Name="lk_doc_paymentconfig_modifiedby" />
   <EntityRelationship Name="lk_doc_paymentline_createdby" />
   <EntityRelationship Name="lk_doc_paymentline_modifiedby" />
   <EntityRelationship Name="lk_doc_paymenttransaction_createdby" />
@@ -25,12 +29,14 @@
   <EntityRelationship Name="lk_doc_refund_createdby" />
   <EntityRelationship Name="lk_doc_refund_modifiedby" />
   <EntityRelationship Name="owner_doc_payment" />
+  <EntityRelationship Name="owner_doc_paymentconfig" />
   <EntityRelationship Name="owner_doc_paymentline" />
   <EntityRelationship Name="owner_doc_paymenttransaction" />
   <EntityRelationship Name="owner_doc_productmapping" />
   <EntityRelationship Name="owner_doc_productmappingsetting" />
   <EntityRelationship Name="owner_doc_refund" />
   <EntityRelationship Name="team_doc_payment" />
+  <EntityRelationship Name="team_doc_paymentconfig" />
   <EntityRelationship Name="team_doc_paymentline" />
   <EntityRelationship Name="team_doc_paymenttransaction" />
   <EntityRelationship Name="team_doc_productmapping" />
@@ -40,6 +46,7 @@
   <EntityRelationship Name="TransactionCurrency_doc_PaymentLine" />
   <EntityRelationship Name="TransactionCurrency_doc_PaymentTransaction" />
   <EntityRelationship Name="user_doc_payment" />
+  <EntityRelationship Name="user_doc_paymentconfig" />
   <EntityRelationship Name="user_doc_paymentline" />
   <EntityRelationship Name="user_doc_paymenttransaction" />
   <EntityRelationship Name="user_doc_productmapping" />
