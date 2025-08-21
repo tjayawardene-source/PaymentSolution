@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a8ff1fd3-eb15-42a1-b819-3b612865f86b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="doc_name" select="1" icon="1" preview="1">
+        <row name="result" id="doc_productmappingsettingid">
+          <cell name="doc_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="doc_productmappingsetting">
+          <attribute name="doc_productmappingsettingid" />
+          <attribute name="doc_name" />
+          <attribute name="createdon" />
+          <order attribute="doc_name" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Product Mapping Setting Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

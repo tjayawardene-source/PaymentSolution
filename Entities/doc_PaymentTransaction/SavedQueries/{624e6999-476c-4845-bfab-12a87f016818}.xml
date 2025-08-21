@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{624e6999-476c-4845-bfab-12a87f016818}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="doc_paymenttransaction" select="1" icon="1" preview="1">
+        <row name="result" id="doc_paymenttransactionid">
+          <cell name="doc_paymenttransaction" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="doc_paymenttransaction">
+          <attribute name="doc_paymenttransactionid" />
+          <attribute name="doc_paymenttransaction" />
+          <attribute name="createdon" />
+          <order attribute="doc_paymenttransaction" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Payment Transactions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

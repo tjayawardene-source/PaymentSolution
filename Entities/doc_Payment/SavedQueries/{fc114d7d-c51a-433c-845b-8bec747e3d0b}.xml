@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{fc114d7d-c51a-433c-845b-8bec747e3d0b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="doc_payment" select="1" icon="1" preview="1">
+        <row name="result" id="doc_paymentid">
+          <cell name="doc_payment" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="doc_paymentid" width="100" />
+          <cell name="doc_paymentreferencenumber" width="147" />
+          <cell name="doc_customerreferencenumber" width="144" />
+          <cell name="doc_principalamount" width="140" />
+          <cell name="doc_surchargeamount" width="146" />
+          <cell name="doc_transactiontime" width="139" />
+          <cell name="doc_transactiontype" width="137" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="doc_payment">
+          <attribute name="doc_paymentid" />
+          <attribute name="doc_payment" />
+          <attribute name="createdon" />
+          <order attribute="doc_payment" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="doc_paymentreferencenumber" />
+          <attribute name="doc_customerreferencenumber" />
+          <attribute name="doc_principalamount" />
+          <attribute name="doc_surchargeamount" />
+          <attribute name="doc_transactiontime" />
+          <attribute name="doc_transactiontype" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Payments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
